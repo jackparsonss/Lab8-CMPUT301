@@ -70,4 +70,12 @@ public class CustomList extends ArrayAdapter<City> {
         return cities.contains(city);
     }
 
+    /**
+     * removes city from city list
+     * @param city to remove
+     */
+    public void deleteCity(City city) {
+//        cities.remove(city);
+    }
+
 }
